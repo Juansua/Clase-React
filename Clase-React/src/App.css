@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* :root {
+  --b-max-width: 100vw;
+} */
+
+body {
+  max-width: var(--b-max-width);
+  /* max-width: 600px; */
+  margin: 0 auto;
+}
+
+section {
+  padding: 0.1rem 0.25rem 2rem;
+  border-bottom: solid 2px rgb(149, 149, 149);
+}
+
+.btn-purple {
+  background-color: blueviolet;
+  color: white;
+}
+
+.btn-brown {
+  background-color: brown;
+  color: white;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.card-img {
+  width: 100px;
+}
+
+/* body {
+  background-color: rgb(79, 124, 76);
+} */
